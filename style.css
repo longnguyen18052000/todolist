@@ -1,0 +1,275 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-zing: border-box;
+  font-family: 'Poppins';
+}
+
+.container {
+  display: flex;
+  margin: 30px;
+  border: 1px solid black;
+}
+
+/*start .new_task */
+.new_task {
+  border-right: 2px solid black;
+  width: 40%;
+  padding: 0px 50px;
+}
+
+.container .new_task .title {
+  width: 100%;
+  text-align: center;
+}
+
+.new_task h3 {
+  margin: 30px 0px 50px 0px;
+}
+
+.container .new_task .add_new_task input {
+  width: 100%;
+  padding: 6px 0px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.container .new_task .description textarea {
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.container .new_task .date_piority {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container .new_task .date_piority .date {
+  width: 45%;
+}
+
+.container .new_task .date_piority .date input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 6px;
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.container .new_task .date_piority .piority {
+  width: 45%;
+}
+.container .new_task .date_piority .piority select {
+  width: 100%;
+  border: 2px solid black;
+  padding: 6px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.container .new_task .button_click {
+  background-color: #5cb85c;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+.container .new_task .button_click button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+/* end new_task */
+
+/* start todo_list */
+.todo_list {
+  padding: 0px 50px;
+  margin-bottom: 100px;
+}
+
+.container .todo_list .title {
+  width: 100%;
+  text-align: center;
+}
+
+.container .todo_list .title h3 {
+  margin: 30px 0px 50px 0px;
+}
+
+.container .todo_list .search input {
+  width: 100%;
+  padding: 6px 0px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.container .todo_list .content {
+  border: 1px solid black;
+}
+
+.container .todo_list .content .do_homework {
+  margin: 15px;
+  color: #7b7b7b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.container .todo_list .content .do_homework .item_button .detail {
+  background-color: #00bcd4;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container .todo_list .content .do_homework .item_button .remove {
+  background-color: #d9534f;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container .todo_list .content .todolist_newtask {
+  padding: 20px;
+}
+
+.container .todo_list .content .todolist_newtask .add_new_task input {
+  width: 100%;
+  padding: 6px 0px;
+  border: 2px solid gray;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.container .todo_list .content .todolist_newtask .description textarea {
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.container .todo_list .content .todolist_newtask .date_piority {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container .todo_list .content .todolist_newtask .date_piority .date {
+  width: 45%;
+}
+
+.container .todo_list .content .todolist_newtask .date_piority .date input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 6px;
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.container .todo_list .content .todolist_newtask .date_piority .piority {
+  width: 45%;
+}
+
+.container .todo_list .content .todolist_newtask .date_piority .piority select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 6px;
+  border: 2px solid black;
+  font-size: 14px;
+}
+
+.container .todo_list .content .todolist_newtask .button_click {
+  background-color: #5cb85c;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 60px;
+}
+
+.container .todo_list .content .todolist_newtask .button_click button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.container .todo_list .footer_do_homework {
+  border: 1px solid black;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+
+.container .todo_list .footer_do_homework .item_button .detail {
+  background-color: #00bcd4;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container .todo_list .footer_do_homework .item_button .remove {
+  background-color: #d9534f;
+  color: white;
+  font-size: 13px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.footer {
+  display: flex;
+  background-color: #e0e0e0;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.footer .detail {
+  background-color: #2196f3;
+  color: white;
+  font-size: 13px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.footer .remove {
+  background-color: #d9534f;
+  color: white;
+  font-size: 13px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+/* end todo_list */
